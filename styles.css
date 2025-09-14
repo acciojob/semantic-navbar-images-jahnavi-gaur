@@ -1,2 +1,23 @@
-
 /* Your CSS Code here. */
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+.nav-bar{
+	width:100vw;
+	height:80px;
+	background-color:black;
+	padding:25px;
+	margin:10px;
+}
+.nav-bar > ul{
+	list-style-type:none;
+	display:flex;
+	justify-content:space-around
+}
+a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+}
